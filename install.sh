@@ -2,7 +2,7 @@
 WORKSPACE_DIR=~/dev/workspace
 
 cd ~
-sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo amazon-linux-extras install epel -y
 sudo yum install -y ansible
 mkdir -p $WORKSPACE_DIR
 cd $WORKSPACE_DIR
